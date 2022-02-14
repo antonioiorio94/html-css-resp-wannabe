@@ -1,0 +1,29 @@
+@media screen and (max-width: 420px) {
+
+    .container{
+        background-color: rgb(241, 211, 149);
+    }
+    
+    
+    .row {
+        max-width: 420px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+
+        width: 100%;
+        margin-bottom: 20px;
+
+    }

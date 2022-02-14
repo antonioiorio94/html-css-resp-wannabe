@@ -1,5 +1,11 @@
 @media screen and (max-width: 420px) {
 
+    body{
+        margin: 0px;
+    }
+    
+    
+    
     .container{
         background-color: rgb(241, 211, 149);
     }
@@ -26,4 +32,10 @@
         width: 100%;
         margin-bottom: 20px;
 
+    }
+
+    #steps .row>.left, #steps .row>.central, #steps .row>.right {
+
+        width: 100%;
+        margin-bottom: 20px;
     }

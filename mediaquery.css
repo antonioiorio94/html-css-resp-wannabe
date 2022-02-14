@@ -6,8 +6,8 @@
     
     
     
-    .container{
-        background-color: rgb(241, 211, 149);
+    .container, #why{
+        background-color: rgba(241, 211, 149, 0.5);
     }
     
     
@@ -38,4 +38,9 @@
 
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    #why .row>.first, #why .row>.second, #why .row>.third {
+    
+        margin-top: 20px;
     }
